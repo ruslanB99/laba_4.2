@@ -47,7 +47,7 @@ if __name__ == "__main__":
             '''Перегрузка метода eq '''
         def equals(self, other):
             if type(self) is type(other):
-                return self._brand == other._brand
+                return self.engine_capacity == other.engine_capacity
             else:
                return False
             '''Перегрузка str'''
